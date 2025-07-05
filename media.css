@@ -1,0 +1,74 @@
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        flex-flow: column;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    #search-container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-between;
+    }
+
+    #media-search {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .site-footer {
+        display: flex;
+        flex-flow: column;
+        font-size: 0.8rem;
+        padding: 0.8rem;
+    }
+
+    #modal-container {
+        height: 100%;
+        height: 100%;
+    }
+
+    #modal-body {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #movie-title {
+        font-size: 1.4rem;
+    }
+
+    #movie-poster {
+        width: 70%;
+    }
+
+    #movie-info {
+        font-size: 0.8rem;
+        max-width: 100px;
+        padding-right: 2rem;
+        gap: 0.6rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.7rem;
+    }
+
+    #add-to-list:focus {
+        background-color: var(--secundary-color);
+        color: var(--fourth-color);
+    }
+}
